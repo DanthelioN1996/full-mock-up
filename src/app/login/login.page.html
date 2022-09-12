@@ -1,21 +1,25 @@
-<ion-header>
-  
-</ion-header>
-  
-  <ion-content padding center text-center>
-    <ion-title><H1>SIGLO XXI</H1></ion-title>
-    <ion-list>
-      <div class="ion-text-center">
-      <ion-item>
+
+<ion-card-content padding center text-center>  
+  <br>
+  <div text-center>
+    <ion-title>SIGLO XXI</ion-title>
+  </div>
+  <br>
+  <ion-list>
+    <ion-item>
+      <ion-input>
         <ion-input placeholder="Usuario"></ion-input>
-      </ion-item>
-    </div>
-    <div class="ion-text-center">
-      <ion-item>
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input>
         <ion-input placeholder="Contraseña" type="password"></ion-input>
-      </ion-item>
-    </div>
-    </ion-list>
-    <div class="ion-text-center"><button ion-button [routerLink]="['/home']" class="btn">Ingresar</button></div>
-    <div class="ion-text-center"><button ion-button [routerLink]="['/crear-usuario']" class="btn2">Resgistrate</button></div>
-</ion-content>
+      </ion-input>
+    </ion-item>
+  </ion-list>
+<br>
+  <div class="ion-text-center"><button ion-button [routerLink]="['/home']" class="btn">Ingresar</button></div>
+<br>
+  <div class="ion-text-center"><button ion-button [routerLink]="['/crear-usuario']" class="btn2">Resgistrate</button></div>
+
+</ion-card-content>
