@@ -1,12 +1,17 @@
-<ion-header>
-  <ion-toolbar color="mycolor">
-    <ion-title color="dark"><H1>SIGLO XXI</H1></ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-item>
-    <ion-label position= "center">Fixed Label</ion-label>
-    <ion-input></ion-input>
-  </ion-item>
+  <ion-content padding center text-center>
+    <ion-title><H1>SIGLO XXI</H1></ion-title>
+    <ion-list>
+      <div class="ion-text-center">
+      <ion-item>
+        <ion-input placeholder="Usuario"></ion-input>
+      </ion-item>
+    </div>
+    <div class="ion-text-center">
+      <ion-item>
+        <ion-input placeholder="Contraseña" type="password"></ion-input>
+      </ion-item>
+    </div>
+    </ion-list>
+    <div class="ion-text-center"><button ion-button [routerLink]="['/home']" class="btn">Ingresar</button></div>
+    <div class="ion-text-center"><button ion-button [routerLink]="['/crear-usuario']" class="btn2">Resgistrate</button></div>
 </ion-content>
